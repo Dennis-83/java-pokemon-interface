@@ -23,4 +23,5 @@ public class PokemonGymOwner {
     public String getTown() {
         return town;
     }
+
 }

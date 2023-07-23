@@ -6,7 +6,6 @@ public class PokemonTrainer {
     private List<Pokemon> pokemons;
     private final String name;
 
-    private String type;
 
     public PokemonTrainer(String name,List<Pokemon> pokemons) {
         this.pokemons = pokemons;
@@ -17,14 +16,8 @@ public class PokemonTrainer {
         return name;
     }
 
-    public String getType() {
-        return type;
-    }
-
     public List<Pokemon> getPokemons() {
         return pokemons;
     }
-
-
 
 }
