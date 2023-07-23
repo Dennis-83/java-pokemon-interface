@@ -266,7 +266,7 @@ public class PokemonGymImpl implements PokemonGym {
     @Override
     public void feedPokemon(Pokemon pokemon){
         pokemon.hp += 20;
-        System.out.println("You healed " + pokemon.getName() +  " for 20 hp");
+        System.out.println("You healed " + pokemon.getName() +  " for 20 hp by giving it " + pokemon.getFood());
         System.out.println(pokemon.getName() + " now has " + pokemon.hp + " hp");
     }
 
