@@ -40,6 +40,8 @@ public interface PokemonGym {
     default void attackOrChange(Pokemon pokemon, Pokemon gymPokemon, PokemonTrainer trainer, PokemonGymOwner owner) {
     }
 
+    default void feedPokemon(Pokemon pokemon){
+    }
 
 
 }
